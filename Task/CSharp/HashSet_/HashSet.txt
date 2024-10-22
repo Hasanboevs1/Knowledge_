@@ -1,0 +1,24 @@
+What is a HashSet in C#?
+
+It is a lot like of array, list and any other data strutures
+
+Features: 
+    - Not Ordered
+    - Use of Insertion and Deletion
+    - No duplicate, unique elements
+    - Supports null elements
+
+Common Methods: 
+    - Add(T item);
+    - Clear();
+    - Contains(T item);
+    - CopyTo(T[] array, int arrayIndex);
+    - ExceptWith(IEnumerable<T> items); // removes the elements that exist in the items collection
+    - Overlaps(IEnumerable<T> items); // Checks whether HashSet shares any element within the given collection;
+    - Remove(T item);
+
+
+Strong Side:
+    - Efficient Performance: excellent performance for Insertion and Deletion or Lookup
+    - Generic
+    - Many Set Operations like union, intersection, difference ...
