@@ -4,18 +4,8 @@ namespace Task.CSharp.HashSet_;
 public class HashSetClass<T>
 {
     private HashSet<T> _hashSet;
+    public HashSetClass() => _hashSet = new HashSet<T>();
 
-/*************  ✨ Codeium Command 🌟  *************/
-    /// <summary>
-    /// Creates an empty instance of <see cref="HashSet{T}"/>.
-    /// </summary>
-    public HashSetClass()
-    {
-        _hashSet = new HashSet<T>();
-    }
-/******  332125ec-6aaf-41d2-926e-da7b6322d353  *******/
-
-    // Add element to the HashSet
     public bool AddElement(T element)
     {
         return _hashSet.Add(element);

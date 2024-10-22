@@ -1,0 +1,21 @@
+In C#, an Array is a fixed-size, zero-indexed collection that stores elements of the same type in contiguous memory.
+Arrays are basic data structures and provide fast access to elements by index.
+Let's go over how arrays are built and how they function, including common methods and features.
+
+1. Array Features
+
+    - Fixed Size: Once you define the size of an array, you cannot change it. You must specify the size at creation.
+    - Indexed Access: You can access elements in constant time using an index, making it very efficient for lookups.
+    - Zero-Indexed: Arrays in C# start from index 0, meaning the first element is at position 0.
+    - Homogeneous: Arrays store elements of the same type, whether they are value types (e.g., int, float) or reference types (e.g., string, custom objects).
+    - Contiguous Memory: The elements of an array are stored in contiguous memory locations, allowing efficient access.
+
+
+2. Common Array Methods
+While arrays don’t have methods like List<T>, 
+C# provides several static methods in the Array class to manipulate arrays, such as:
+
+Array.Sort(): Sorts the elements of an array.
+Array.Reverse(): Reverses the order of elements.
+Array.IndexOf(): Finds the index of a specified element.
+Array.Resize(): Resizes an array (by creating a new array).
